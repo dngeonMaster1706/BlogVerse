@@ -7,7 +7,7 @@ import Footer from "../components/Footer"
 
 //PAGES
 import Home from "../pages/Home"
-import Author from "../pages/Author"
+import Authors from "../pages/Authors"
 import AuthorPosts from "../pages/AuthorPosts"
 import CategoryPosts from "../pages/CategoryPosts"
 import CreatePosts from "../pages/CreatePosts"
@@ -28,12 +28,12 @@ function Router() {
             <Header/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/authors" element={<Author/>}/>
+                <Route path="/authors" element={<Authors/>}/>
                 <Route path="/posts/users/:id" element={<AuthorPosts/>}/>
                 <Route path="/posts/categories/:category" element={<CategoryPosts/>}/>
                 <Route path="/create" element={<CreatePosts/>}/>
                 <Route path="/myposts/:id" element={<Dashboard/>}/>
-                {/* <Route path="/deletePost" element={<DeletePost/>}/> */}
+                <Route path="/posts/:id/delete" element={<DeletePost/>}/>
                 <Route path="/posts/:id/edit" element={<EditPost/>}/>
                 
                 <Route path="/Login" element={<Login/>}/>

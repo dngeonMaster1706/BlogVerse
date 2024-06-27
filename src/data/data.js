@@ -19,56 +19,57 @@ import blogImage4 from '../../src/assets/4.jpg'
 import blogImage5 from '../../src/assets/5.jpg'
 import blogImage6 from '../../src/assets/6.jpg'
 
-export const DummyPosts =[
+export const DummyPosts = [
     {
         id: 1,
         Image: blogImage1,
         category: 'Education',
         authorId: 2,
-        title: 'This is the title for Robot',
-        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+        title: 'The Role of Robotics in Modern Education',
+        des: 'Explore how robotics is revolutionizing education by enhancing learning experiences, fostering creativity, and preparing students for the future workforce.'
     },
     {
         id: 2,
         Image: blogImage2,
         category: 'Education',
         authorId: 3,
-        title: 'Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text.',
-        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+        title: 'The Evolution of Online Learning Platforms',
+        des: 'Discover the development and impact of online learning platforms in providing accessible and flexible education opportunities worldwide.'
     },
     {
         id: 3,
         Image: blogImage3,
-        category: 'Entertainment',
+        category: 'Entertainment ',
         authorId: 5,
-        title: 'Lorem Ipsum is simply dummy text. ',
-        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+        title: 'The Impact of AI in the Entertainment Industry ',
+        des: 'Uncover how artificial intelligence is transforming the entertainment industry through personalized recommendations, content creation, and enhanced user experiences.'
     },
     {
         id: 4,
         Image: blogImage4,
         category: 'Science',
         authorId: 8,
-        title: 'Lorem Ipsum is simply dummy text.',
-        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+        title: 'The Science of Climate Change: What You Need to Know',
+        des: 'An in-depth look at the science behind climate change, its causes, and the urgent actions needed to mitigate its effects on our planet.'
     },
     {
         id: 5,
         Image: blogImage5,
         category: 'Science',
         authorId: 5,
-        title: 'Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text.',
-        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+        title: 'Advancements in Biotechnology: A New Era of Medicine',
+        des: 'Explore the latest advancements in biotechnology that are revolutionizing medicine, from gene editing to personalized therapies.'
     },
     {
         id: 6,
         Image: blogImage6,
         category: 'Discovery',
         authorId: 3,
-        title: 'Lorem Ipsum is simply dummy text. ',
-        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+        title: 'The Future of Space Exploration: Mars and Beyond',
+        des: 'Journey through the latest developments in space exploration, including missions to Mars, lunar bases, and the search for extraterrestrial life.'
     },
 ];
+
 
 
 
