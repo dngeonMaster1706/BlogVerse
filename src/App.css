@@ -587,5 +587,14 @@ input ,select,textarea{
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+    .authorPosts-container{
+        gap: 2rem;
+    }
+    .PostDtail-container{
+        width: 70%;
+    }
+    .form-container{
+        width: 70%;
+    }
  }
 /* MEDIA SCREEN */
