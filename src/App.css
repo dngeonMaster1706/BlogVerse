@@ -42,7 +42,7 @@ body{
     background: var(--color-bg);
     font-size: 18px;
     color: var(--color-gray-700);
-    
+    display: flex;
 }
 a{
     text-decoration: none;
@@ -79,7 +79,7 @@ img{
     width: 100%;
 }
 section{
-    margin-top: 8rem;
+    margin-top: 7rem;
 }
 .container{
     width:90%;
@@ -137,7 +137,7 @@ nav{
 .nav-container{
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items:center ; 
     height: 100%;
 }
 .nav-logo h3{
@@ -173,7 +173,7 @@ footer{
 .footer-categories{
     display: flex;
     align-items: center;
-    gap: 2.4rem;
+    gap: 1.4rem;
     margin-bottom: 4rem;
     flex-wrap:wrap ;
     justify-content: center;
@@ -245,6 +245,11 @@ footer{
     font-size: 20px;
     line-height: 1.4;
 }
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+}
 .posts{
     background: var(--color-white);
     padding: 1rem;
@@ -255,7 +260,7 @@ footer{
     
 }
 .posts:hover{
-    box-shadow: 0 1.5rem 2rem rgba(8, 8, 8, 0.1);
+    box-shadow: none;
 }
 
 .post-image{
@@ -264,13 +269,11 @@ footer{
     height: 16rem;
     overflow: hidden;
 }
-.post-image img{
-    height: 100%;
-}
+
 .post-content{
     margin-top: 1.5rem;
 }
-.post-content{
+.post-content h3{
     margin: 1rem 0 0.6rem;
 }
 
@@ -333,11 +336,14 @@ footer{
 /*POST DETAIL*/
 
 /*Sign Up Sign In*/
-
+.form-container{
+    width: 50%;
+}
 form{
     display: flex;
     flex-direction: column;
     gap: .7rem;
+
 }
 input ,select,textarea{
     width: 100%;
@@ -355,15 +361,15 @@ input ,select,textarea{
     margin-bottom: 1.1rem;
     border-radius: var(--border-radiuus-1);
 }
-.form-container{
-    width: 50%;
 
-}
 .form-container h2{
     margin-bottom: 2rem;
+    text-align: center;
 }
 .form-container small{
     margin-top: 1.5rem;
+    display: block;
+
 }
 .form-container small a{
     color:blue;
@@ -408,9 +414,6 @@ input ,select,textarea{
 /*AUTHOR*/
 
 /* Profilee */
-.profile-container{
-    width: 50%;
-}
 
 .profile-container a{
     display: block;
@@ -431,9 +434,14 @@ input ,select,textarea{
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     text-align: center;
     align-items: center;
+    margin: auto;
+}
+.profile-details .profile-data-form{
+
+    width: 100%;
 }
 
 .profile-wrapper{
@@ -519,3 +527,65 @@ input ,select,textarea{
 
 
 /* DASHBOARD */
+
+/* QUILL CSS */
+
+.qL-editor{
+    overflow: scroll;
+    background: var(--color-white);
+    height: 12rem !important;
+
+}
+/* QUILL CSS */
+
+
+/* MEDIA SCREEN */
+ @media (max-width:1024){
+    h1{
+      font-size: 1.5rem !important; 
+    }
+    h2{
+        font-size: 1.4rem !important;
+    }
+
+    .nav-container{
+        position: relative;
+        height: 100%;
+    }
+    .nav-menu{
+        position: absolute;
+        top: 5rem;
+        display: flex;
+        gap: 0;
+        right: 0;
+        flex-direction: column;
+    }
+    .nav-menu{
+        width: 100%;
+        box-shadow: -2rem 4rem 4rem rgba(0,0,0,0.26);
+    }
+    .nav-menu li{
+        background: var(--color-primary);
+        padding: 1.4rem 3.2rem;
+    }
+
+    @keyframes navAni {
+        to{
+            opacity: 0;
+            transform: rotateX(0);
+        }  
+        
+    }
+    .nav-menu li:nth-child{
+        animation-delay: 300ms;   
+    } 
+
+    .head-post-container{
+        gap: 2rem;
+    }
+    .posts-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+ }
+/* MEDIA SCREEN */

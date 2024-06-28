@@ -16,11 +16,11 @@ const UserProfile = () => {
 
   return (
     <section className='profile'>
-      <div className="container profile-container">
+      <div className="container  profile-container">
         <Link to={'/myposts/id'}>
           My posts
         </Link>
-        <div className="profile-details">
+        <div className="profile-details form-container">
           <div className="profile-wrapper">
             <div className="profile-image">
                 <img src={PfofileImage}alt=""/>
@@ -44,7 +44,7 @@ const UserProfile = () => {
               {/* Profile form data */}
               <form action="" className='form profile-data-form'>
               <p className='form-message'>Password or email invalid!</p>
-              <input type="text" placeholder="Enter your Name" name="name" value={name} value={name} onChange={e=>setName(e.target.value)}/>
+              <input type="text" placeholder="Enter your Name" name="name" value={name}  onChange={e=>setName(e.target.value)}/>
               <input type="email" placeholder="Enter Email" name="email" value={email}  onChange={e=>setEmail(e.target.value)}/>
               <input type="password" placeholder="Enter Current Password" name="currentPassword" value={currentPassword} onChange={e=>setCuurrentPassword(e.target.value)}/>
               <input type="password" placeholder="Enter New Password" name="newPassword" value={newPassword} onChange={e=>setNewPassword(e.target.value)}/>

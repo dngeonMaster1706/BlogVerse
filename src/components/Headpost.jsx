@@ -12,7 +12,7 @@ export default function Headpost() {
             return(
                 <div key={index} className='container head-post-container'>
 
-                        <div className="post-content">
+                        <div className="post-container">
                             <Link to={`posts/${authorId}`}>
                                 <h1>{title}</h1>
                             </Link>
