@@ -9,16 +9,6 @@ Welcome to **BlogVerse**, a platform where you can read and create blogs on vari
 - **Create Blogs**: Write and publish your own blogs to share your insights and experiences.
 - **Responsive Design**: Accessible on both desktop and mobile devices.
 
-## Screenshots
-
-![Home Page](public\Readme\Screenshot (205).png)
-*Screenshot of the home page displaying a list of blogs.*
-
-![Sign Up Page](./screenshots/sign-up-page.png)
-*Screenshot of the sign-up page for new users.*
-
-![Create Blog Page](./screenshots/create-blog-page.png)
-*Screenshot of the blog creation page with a rich text editor.*
 
 ## Getting Started
 
@@ -35,3 +25,6 @@ Ensure you have the following installed:
 
    ```sh
    git clone https://github.com/yourusername/blogverse.git
+
+   cd blogverse
+
