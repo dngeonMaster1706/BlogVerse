@@ -11,7 +11,7 @@ Welcome to **BlogVerse**, a platform where you can read and create blogs on vari
 
 ## Screenshots
 
-![Home Page](C:\Users\Dungeon Master\Desktop\blog\blog\src\Readme\Screenshot (205).png)
+![Home Page](public\Readme\Screenshot (205).png)
 *Screenshot of the home page displaying a list of blogs.*
 
 ![Sign Up Page](./screenshots/sign-up-page.png)
