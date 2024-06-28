@@ -563,6 +563,8 @@ input ,select,textarea{
     .nav-menu{
         width: 100%;
         box-shadow: -2rem 4rem 4rem rgba(0,0,0,0.26);
+        animation: NavAni(90deg);
+        transform-origin: top;
     }
     .nav-menu li{
         background: var(--color-primary);
@@ -580,7 +582,7 @@ input ,select,textarea{
         animation-delay: 300ms;   
     } 
 
-    .head-post-container{
+    .haede-post-container{
         gap: 2rem;
     }
     .posts-container{
